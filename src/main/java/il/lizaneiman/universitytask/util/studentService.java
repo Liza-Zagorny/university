@@ -1,4 +1,4 @@
 package il.lizaneiman.universitytask.util;
 
-public class StudenService {
+public class studentService {
 }
