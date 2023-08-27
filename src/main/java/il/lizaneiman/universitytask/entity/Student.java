@@ -22,63 +22,47 @@ public class Student implements UniversityMemberAction, Studying {
 
     @Override
     public void enterUniversity() {
-
+        System.out.println("Студент вошел в университет.");
     }
 
     @Override
     public void exitUniversity() {
+        System.out.println("Студент вышел из университета.");
 
     }
-
-    ;
 
     @Override
     public void enterClass() {
-
+        System.out.println("Студент вошел в класс.");
     }
-
-    ;
 
     @Override
     public void exitClass() {
-
+        System.out.println("Студент вышел из класса.");
     }
-
-    ;
 
     @Override
     public void takeBreak() {
-
+        System.out.println("Студент пошел на перерыв на територии университета.");
     }
-
-    ;
 
     @Override
     public void speak() {
-
+        System.out.println("Студент отвечает на уроке.");
     }
-
-    ;
 
     @Override
     public void readBook() {
-
+        System.out.println("Студент читает книгу в библиотеке.");
     }
-
-    ;
 
     @Override
     public void doHomework() {
-
+        System.out.println("Студет выполняет домашнее задание.");
     }
-
-    ;
 
     @Override
     public void skipLesson() {
-
+        System.out.println("Студент прогуливает урок.");
     }
-
-    ;
-
 }
