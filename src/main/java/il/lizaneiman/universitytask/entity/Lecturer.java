@@ -17,6 +17,7 @@ public class Lecturer implements Teaching, UniversityMemberAction {
         this.institution = university;
     }
 
+
     @Override
     public void enterUniversity() {
         System.out.println("Учитель вошел в университет.");

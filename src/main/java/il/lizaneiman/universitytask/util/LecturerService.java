@@ -8,7 +8,7 @@ public class LecturerService {
         member.enterUniversity();
         member.enterClass();
         member.speak();
-        member.enterClass();
+        member.exitClass();
         member.takeBreak();
         member.exitUniversity();
     }
