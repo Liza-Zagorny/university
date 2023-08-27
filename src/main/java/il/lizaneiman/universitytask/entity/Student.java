@@ -28,7 +28,6 @@ public class Student implements UniversityMemberAction, Studying {
     @Override
     public void exitUniversity() {
         System.out.println("Студент вышел из университета.");
-
     }
 
     @Override
