@@ -1,9 +1,9 @@
 package il.lizaneiman.universitytask.util;
 
-import il.lizaneiman.universitytask.entity.Teaching;
+import il.lizaneiman.universitytask.entity.Studying;
 import il.lizaneiman.universitytask.entity.UniversityMemberAction;
 
-public class LecturerService {
+public class StudentService {
     public void executeBasicActions(UniversityMemberAction member){
         member.enterUniversity();
         member.enterClass();
@@ -13,9 +13,9 @@ public class LecturerService {
         member.exitUniversity();
     }
 
-    public void executeLecturerActions (Teaching lecturer){
-        lecturer.beAbsent();
-        lecturer.checkHomework();
-        lecturer.prepareMaterial();
+    public void executeStudentActions (Studying student){
+        student.doHomework();
+        student.readBook();
+        student.skipLesson();
     }
 }
